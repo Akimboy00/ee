@@ -1,0 +1,159 @@
+@media (max-width: 1000px) {
+    .header-nav {
+      padding: 20px 5px;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+      background-color: rgba(243, 252, 253, 0.315);
+      backdrop-filter: blur(20px);
+    }
+  
+    .logo {
+      display: block;
+      margin: 10px auto;
+      height: 100px;
+    }
+  
+    .market-nav {
+      flex-direction: column;
+      align-items: flex-start;
+      display: none;
+    }
+  
+    .market-nav .market-ticker {
+      margin-bottom: 10px;
+      animation: none;
+    }
+  
+    .hero-image {
+      margin-top: 50px;
+      z-index: 0;
+      width: 100vw;
+      height: 40vh;
+    }
+  
+    .main-heading {
+      font-size: 2rem;
+    }
+  
+    .main-description, .main-descriptio {
+      font-size: 18px;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .sustainability-title {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .sustainability-content {
+      padding: 20px 10px 50px;
+      text-align: center;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .intelligence-logo {
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .intelligence-boxes {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .box-container {
+      padding: 5vw;
+      gap: 10px;
+    }
+  
+    .box {
+      flex-direction: column;
+    }
+  
+    .box-logo, .box-logo-right {
+      max-width: 30%;
+    }
+  
+    .financial-box {
+      font-size: 16px;
+      padding: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-nav {
+      padding: 5px 2px;
+      animation: none;
+    }
+  
+    .market-nav .market-ticker {
+      animation: none;
+      padding: 5px 10px;
+      margin-right: 5px;
+    }
+  
+    .hero-image {
+      margin-top: 50px;
+    }
+  
+    .main-heading {
+      font-size: 1.8rem;
+    }
+  
+    .main-description, .main-descriptio {
+      font-size: 16px;
+    }
+  
+    .sustainability-title {
+      font-size: 24px;
+    }
+  
+    .sustainability-content {
+      padding: 15px 8px 40px;
+    }
+  
+    .intelligence-box1, .intelligence-box2, .intelligence-box3 {
+      max-width: 100%;
+    }
+  
+    .box-container {
+      padding: 3vw;
+      gap: 3vw;
+    }
+  
+    .box {
+      padding: 5vw;
+    }
+  
+    .financial-box {
+      font-size: 14px;
+    }
+  
+    .contact-footer {
+      background-color: #ffffff;
+      backdrop-filter: blur(10px);
+      display: flex;
+      max-width: 100%;
+      font-family: Sora, sans-serif;
+      line-height: 1;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .market-nav {
+      animation: none;
+    }
+  
+    .sustainability-title {
+      font-size: 32px;
+    }
+  
+    .sustainability-content {
+      padding: 25px 12px 55px;
+    }
+  }
+  
